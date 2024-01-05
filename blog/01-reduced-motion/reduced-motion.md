@@ -1,12 +1,12 @@
 # Intro
 
-We (as web developers) should care about users with disabilities. We should make sure our websites are accessible for everyone. But how do we do that? How do we make this part of our workflow?
+We (as web developers) should care about users with disabilities. We should make sure our websites are accessible for everyone. But how do we do that? How do we make this part of our development process?
 
 ## Reduced motion first
 
 Lets start with reduced motion. Some people have motion sickness and other issues with moving elements on the screen. If you are going to use animations, make sure they can be disabled.
 
-In the past I wrote my code with animations and when the product owner asked the team to work on accessibility, we had to go back and remove all the animations. This is not a good approach because it makes your code messy and more difficult to read. Doing this when the product is almost finished will create a lot of extra work. You need to check every animation and make sure it is disabled for users with motion sickness. It's easier to start with the reduced motion option and then add animations later. Same goes for other accessibility features.
+In the past I wrote my code with animations and when the product owner asked the team to work on accessibility, we had to go back and remove all the animations. This is not a good approach because it makes your code messy and more difficult to read. Doing this when the product is almost finished will create extra work. You need to check every animation and make sure it is disabled for users with motion sickness. It's easier to start with the reduced motion option and then add animations later. Same goes for other accessibility features.
 
 A tip for your workflow is to start with the reduced motion option. This will help you to start by writing code that is accessible for everyone. Then you can add animations and other fancy stuff later.
 

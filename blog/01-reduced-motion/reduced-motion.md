@@ -2,6 +2,8 @@
 
 We (as web developers) should care about users with disabilities. We should make sure our websites are accessible for everyone. But how do we do that? How do we make this part of our development process?
 
+A few years ago it became standard practice to write "mobile first" applications. In this we would write our CSS in a way that catered to mobile users before we started looking at the CSS for desktop users. I think there should be a change in the way we design code for people with disabilities. We should be writing code in a way that is inclusive FIRST!
+
 ## Reduced motion first
 
 Lets start with reduced motion. Some people have motion sickness and other issues with moving elements on the screen. If you are going to use animations, make sure they can be disabled.
@@ -20,11 +22,9 @@ What should you do if the user has enabled the "reduce motion" option? You shoul
 
 ## How to use prefers-reduced-motion media query
 
-Here a tip on how to use `prefers-reduced-motion` media query:
-
 We start by writing our code without animations, so only the functionality is there. Then we add the animations when the user has `no-preference` option enabled.
 
-For example, we have a selector that applies opacity. For users with `no-preference` we want to add an animation that will make the element fade in and out. For users with `reduce` option enabled we don't want to animate the element at all.
+For example, we have a selector that applies opacity when the class `show` is applied. For users with `no-preference` we want to add an transition that will make the element fade in and out. For users with `reduce` option enabled we don't want to animate the element at all.
 
 First we write our code without animations:
 
@@ -66,3 +66,7 @@ Putting it all together:
   }
 }
 ```
+
+## Outro
+
+To help make the web accessible and usable for everyone, we "as developers" should start using accesibility features in our projects. Reduced motion is one of the accessibility features that we can use to make our websites more accessible. It's a small effort that can make a big difference for some users.

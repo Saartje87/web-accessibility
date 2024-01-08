@@ -16,7 +16,7 @@ The `prefers-reduced-motion` media query has two options: `no-preference` and `r
 
 What should you do if the user has enabled the "reduce motion" option? You should disable animations and other moving elements on your website. But how can this be implemented effectively?
 
-## How to Use the Prefers-Reduced-Motion Media Query
+## How to Use the `prefers-reduced-motion` Media Query
 
 By starting with the Reduced Motion option, I mean you don't add animations at all. You start by writing your code without animations. Only the functionality is there. Then, you add the animations when the user has the `no-preference` option enabled.
 

@@ -1,4 +1,4 @@
-# Accessibility Part 1 - Reduced Motion
+# Accessibility Development Habits - Reduced Motion
 
 We, as web developers, should care about users with disabilities. We must ensure that our websites are accessible to everyone. How do we do that? How do we make this part of our development process?
 
@@ -62,5 +62,7 @@ Putting it all together:
   }
 }
 ```
+
+Example on [CodePen](https://codepen.io/Niek-Saarberg/pen/poYBRpq). Enable the "reduce motion" option in your operating system to see the difference.0
 
 To help make the web accessible and usable for everyone, we, as developers, should start using accessibility features in our projects. Reduced Motion is one of the accessibility features that we can use to make the web more inclusive. It's a small effort that can make a big difference for some users.

@@ -63,6 +63,6 @@ Putting it all together:
 }
 ```
 
-Example on [CodePen](https://codepen.io/Niek-Saarberg/pen/poYBRpq). Enable the "reduce motion" option in your operating system to see the difference.0
+Example on [CodePen](https://codepen.io/Niek-Saarberg/pen/poYBRpq). Enable the "reduce motion" option in your operating system to see the difference.
 
 To help make the web accessible and usable for everyone, we, as developers, should start using accessibility features in our projects. Reduced Motion is one of the accessibility features that we can use to make the web more inclusive. It's a small effort that can make a big difference for some users.

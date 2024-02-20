@@ -65,8 +65,6 @@ Putting it all together:
 
 Example on [CodePen](https://codepen.io/Niek-Saarberg/pen/poYBRpq). Enable or disable the "reduce motion" option in your operating system to see the difference.
 
-> _How to enable the "reduce motion" option_
->
 > **macOS**
 >
 > 1. Open System Settings.
